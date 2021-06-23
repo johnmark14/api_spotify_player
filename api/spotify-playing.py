@@ -12,6 +12,7 @@ import random
 SPOTIFY_CLIENT_ID = os.environ['SPOTIFY_CLIENT_ID']
 SPOTIFY_SECRET_ID = os.environ['SPOTIFY_SECRET_ID']
 SPOTIFY_REFRESH_TOKEN = os.environ['SPOTIFY_REFRESH_TOKEN']
+# SPOTIFY_REFRESH_TOKEN = "AQCoTrozVwEdugTd3dH5xPTFC6AgLPXYuuAm9D7l_mbMczrPC9WRdukwr7Tx4dn4-KLdNFQG58ZRV272KGqc6Ux2t_LtKGLB--VgTBDMojJXIOz1KyKrrDAH8r-9QWRrXOs"
 
 # scope user-read-currently-playing/user-read-recently-played
 SPOTIFY_URL_REFRESH_TOKEN = "https://accounts.spotify.com/api/token"
