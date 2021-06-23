@@ -9,9 +9,9 @@ import json
 import os
 import random
 
-SPOTIFY_CLIENT_ID = "cd4ccc40955d4d13a1dbc146904b3f23"
-SPOTIFY_SECRET_ID = "26dc3947310f4dd5be4120acc8b5b631"
-SPOTIFY_REFRESH_TOKEN = "AQCoTrozVwEdugTd3dH5xPTFC6AgLPXYuuAm9D7l_mbMczrPC9WRdukwr7Tx4dn4-KLdNFQG58ZRV272KGqc6Ux2t_LtKGLB--VgTBDMojJXIOz1KyKrrDAH8r-9QWRrXOs"
+SPOTIFY_CLIENT_ID = os.environ['SPOTIFY_CLIENT_ID']
+SPOTIFY_SECRET_ID = os.environ['SPOTIFY_SECRET_ID']
+SPOTIFY_REFRESH_TOKEN = os.environ['SPOTIFY_REFRESH_TOKEN']
 
 # scope user-read-currently-playing/user-read-recently-played
 SPOTIFY_URL_REFRESH_TOKEN = "https://accounts.spotify.com/api/token"
